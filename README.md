@@ -21,3 +21,6 @@ web: https://fonts.google.com/specimen/Roboto
 }
 - Đối với màn hình từ 1200px trở lên thì khung web sẽ hiển thị là 1200px.
 - Đối với màn hình nhỏ hơn 1200px thì nó sẽ luôn hiện 100% thao giao diện trình duyệt.
+4. Dựng source web
+- Tạo 1 thẻ chứa toàn bộ website
+- Làm từng thành phần của website 1. Ex: Header, container, footer.
