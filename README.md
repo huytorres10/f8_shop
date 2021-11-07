@@ -24,3 +24,6 @@ web: https://fonts.google.com/specimen/Roboto
 4. Dựng source web
 - Tạo 1 thẻ chứa toàn bộ website
 - Làm từng thành phần của website 1. Ex: Header, container, footer.
+
+5. Navbar CSS
+- display: block : có thể đặt chiều cao, chiều rộng cho Element
