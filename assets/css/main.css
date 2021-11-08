@@ -135,6 +135,7 @@
 	cursor: default;
 	transform-origin: top right;
 	animation: headerNotifyGrowth ease-in 0.25s;
+	will-change: opacity, transform;
 	display: none;
 }
 
