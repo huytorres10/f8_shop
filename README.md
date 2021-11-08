@@ -47,3 +47,10 @@
 - Khi cha position: relateive;
 - Con position: Absolute thì con để top: 100% sẽ sát bottom cha.
 - Khi dùng các lớp giả ::before thì để display:block để nhìn thasy đc trên màn hình để test.
+
+11. Header Notify Css
+
+- Cách làm mũi tên lên = css, dùng 1 thẻ k có width height, set border cho nó.
+  border-style: solid;
+  border-width: 20px 30px;
+  border-color: transparent transparent var(--white-color) transparent;

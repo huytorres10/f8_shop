@@ -127,7 +127,7 @@
 /* Header notification */
 .header__notify {
 	position: absolute;
-	top: 118%;
+	top: 140%;
 	width: 404px;
 	right: 0;
 	background-color: var(--white-color);
@@ -136,6 +136,25 @@
 	transform-origin: top right;
 	animation: headerNotifyGrowth ease-in 0.25s;
 	display: none;
+}
+
+.header__notify::before {
+	position: absolute;
+	content: "";
+	border-style: solid;
+	border-width: 20px 30px;
+	border-color: transparent transparent var(--white-color) transparent;
+	right: -2px;
+	top: -30px;
+}
+
+.header__notify::after {
+	position: absolute;
+	content: "";
+	right: 0;
+	top: -10px;
+	width: 88px;
+	height: 20px;
 }
 
 .header__notify-header {
