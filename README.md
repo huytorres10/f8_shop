@@ -41,3 +41,9 @@
 - Trỏ chuột vào không có hiện tượng thì để cursor: text hay default.
 - Khi display flex center cho đối tượng cha khi cha height là lẻ thì thêm
   thuộc tính min-height = height + 1 cho chẵn.
+
+8. QR code
+
+- Khi cha position: relateive;
+- Con position: Absolute thì con để top: 100% sẽ sát bottom cha.
+- Khi dùng các lớp giả ::before thì để display:block để nhìn thasy đc trên màn hình để test.
