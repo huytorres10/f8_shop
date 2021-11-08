@@ -54,3 +54,9 @@
   border-style: solid;
   border-width: 20px 30px;
   border-color: transparent transparent var(--white-color) transparent;
+
+13. Dựng base modal
+
+- Tạo ra 1 class modal phủ toàn trang web (fixed để auto đứng 1 chỗ)
+  -- Tạo ra lớp model overlay cũng phủ toàn trang web
+  -- Tạo ra lớp modal body, auto đứng giữa trang web (margin: auto để auto đứng giữa trang web)
