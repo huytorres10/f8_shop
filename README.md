@@ -60,3 +60,8 @@
 - Tạo ra 1 class modal phủ toàn trang web (fixed để auto đứng 1 chỗ)
   -- Tạo ra lớp model overlay cũng phủ toàn trang web
   -- Tạo ra lớp modal body, auto đứng giữa trang web (margin: auto để auto đứng giữa trang web)
+
+16. Css Register form p2
+    overflow: hidden
+
+- Viết vào thằng cha: mục đích: Nếu thằng con to hơn cha thì ẩn phần lòi ra của thằng con.
