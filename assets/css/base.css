@@ -3,6 +3,7 @@
 	--white-color: #fff;
 	--black-color: #000;
 	--text-color: #333;
+	--border-color: #dbdbdb;
 }
 
 * {
@@ -78,4 +79,25 @@ html {
 	border-radius: 5px;
 	margin: auto;
 	z-index: 2;
+}
+
+.btn {
+	height: 36px;
+	min-width: 142px;
+	text-decoration: none;
+	background-color: var(--white-color);
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 1.4rem;
+}
+
+.btn:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	opacity: 0.9;
+}
+
+.btn.btn--primary {
+	color: var(--white-color);
+	background-color: var(--primary-color);
 }
