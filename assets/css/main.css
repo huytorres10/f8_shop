@@ -351,3 +351,31 @@
 .auth-form__socials--text {
 	padding: 0 20px;
 }
+
+.auth-form__help {
+	display: flex;
+	justify-content: end;
+}
+
+.auth-form__help:first-child {
+	color: var(--primary-color);
+}
+
+.auth-form__help-link {
+	text-decoration: none;
+	font-size: 1.4rem;
+}
+
+.auth-form__help-link + .auth-form__help-link {
+	margin-left: 30px;
+}
+
+.auth-form__help > a:first-child {
+	/* Quên mật khẩu */
+	color: var(--primary-color);
+}
+
+.auth-form__help > a:last-child {
+	/* Cần trợ giúp */
+	color: #939393;
+}
