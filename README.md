@@ -65,3 +65,54 @@
     overflow: hidden
 
 - Viết vào thằng cha: mục đích: Nếu thằng con to hơn cha thì ẩn phần lòi ra của thằng con.
+
+21. Setup git rebase hiện tab git-rebase-todo
+    git config --global core.editor "code --wait"
+
+setting json
+
+{
+"git.autofetch": true,
+"workbench.editor.wrapTabs": true,
+"workbench.editorAssociations": {
+"git-rebase-todo": "default"
+},
+"zenMode.hideTabs": false,
+"[json]": {
+"editor.quickSuggestions": {
+"strings": true
+},
+"editor.suggest.insertMode": "replace",
+"gitlens.codeLens.scopes": ["document"]
+},
+"gitlens.advanced.messages": {
+"suppressCommitHasNoPreviousCommitWarning": true,
+"suppressCommitNotFoundWarning": false,
+"suppressCreatePullRequestPrompt": false,
+"suppressDebugLoggingWarning": false,
+"suppressFileNotUnderSourceControlWarning": false,
+"suppressGitDisabledWarning": false,
+"suppressGitMissingWarning": false,
+"suppressGitVersionWarning": false,
+"suppressImproperWorkspaceCasingWarning": false,
+"suppressLineUncommittedWarning": false,
+"suppressNoRepositoryWarning": false,
+"suppressRebaseSwitchToTextWarning": true
+},
+"prettier.printWidth": 120,
+"prettier.useTabs": true,
+"prettier.vueIndentScriptAndStyle": true,
+"prettier.withNodeModules": true,
+"[vue]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"settingsSync.ignoredExtensions": ["chris-noring.node-snippets"],
+"liveServer.settings.donotShowInfoMsg": true,
+"files.autoSave": "afterDelay",
+"window.zoomLevel": 1,
+"editor.formatOnPaste": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true
+}
