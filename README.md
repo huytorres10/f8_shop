@@ -116,3 +116,5 @@ setting json
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.formatOnSave": true
 }
+
+30. Cha: display: flex, con margin: auto --> con căn giữa
