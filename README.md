@@ -118,3 +118,24 @@ setting json
 }
 
 30. Cha: display: flex, con margin: auto --> con căn giữa
+
+31. <div class="home-product-item__img"
+                		style="background-image: url(https://cf.shopee.vn/file/f03a91132ed1fd13bd36e704f4a52b6e_tn)"
+                										></div>
+            => Muốn ảnh thành hình vuông thì set padding-top: 0;
+            => Không cho ảnh lặp lại: background-repeat: no-repeat;
+            => Cho ảnh nhỏ lại: background-size: contain;
+            => Show ảnh đúng trọng tâm: background-position: center;
+
+            Ẩn chữ và tạo dấu ... cho dòng 2.
+
+        line-height: 1.8rem;
+        height: 3.6rem;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+
+    => Set line-height => Chiều cao 1 dòng.
+    => Set height = line-hight\*2
