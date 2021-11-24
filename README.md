@@ -139,3 +139,8 @@ setting json
 
     => Set line-height => Chiều cao 1 dòng.
     => Set height = line-hight\*2
+
+32. Cách thu nhỏ phần tử khi dùng font-size không được.
+
+- Dùng zoom: 0.1 -> hên xui.
+- Dùng transform: scale(0.1) và transform-origin: right; để lấy tâm thu nhỏ bên phải.
