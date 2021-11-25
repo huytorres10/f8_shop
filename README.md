@@ -144,3 +144,14 @@ setting json
 
 - Dùng zoom: 0.1 -> hên xui.
 - Dùng transform: scale(0.1) và transform-origin: right; để lấy tâm thu nhỏ bên phải.
+
+33. Tạo 1 nửa hình vuông => Tam giác vuông.
+
+- 2 đáy top và right thì:
+  border-top: 3px solid currentColor;
+  border-left: 3px solid transparent;
+
+- để con ăn theo tông màu cha.
+  Cha để color: var(--primary-color); background-color: currentColor;
+  con để: background-color: currentColor;
+  muốn con tối màu hơn thì con để: filter: brightness(60%);
