@@ -969,7 +969,7 @@
 	font-size: 1.4rem;
 	font-weight: 400;
 	color: var(--text-color);
-	margin: 10px 10px;
+	margin: 6px 10px;
 	line-height: 1.8rem;
 	height: 3.6rem;
 	overflow: hidden;
@@ -1032,9 +1032,25 @@ i.home-product-item__action-like-icon-fill {
 	color: #999;
 	transform: scale(0.7);
 	transform-origin: right;
+	margin: -1px 0 0 auto;
+}
+
+.home-product-item__star--gold {
+	color: var(--primary-color);
+}
+
+.home-product-item__sold {
+	color: var(--text-color);
+	margin-left: 6px;
 }
 
 .home-product-item__origin {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px;
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: #999;
 }
 
 .home-product-item__brand {
