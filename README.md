@@ -155,3 +155,10 @@ setting json
   Cha để color: var(--primary-color); background-color: currentColor;
   con để: background-color: currentColor;
   muốn con tối màu hơn thì con để: filter: brightness(60%);
+
+34. transform va transition
+- transform dùng để di chuyển theo trục nào đó, ví du:
+ transform: translateY(-1px); giống position: relative; top or bottom
+- transition: dùng để tạo animation cho hành động nào đó.
+ ví dụ: tạo animation cho hành động transform
+ transition: transform ease-out 0.1s;//tên hành động | kiểu animation | time.
