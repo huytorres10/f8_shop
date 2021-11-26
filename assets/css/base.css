@@ -4,7 +4,7 @@
 	--black-color: #000;
 	--text-color: #333;
 	--border-color: #dbdbdb;
-	--star-gold-color: #FFCE3E
+	--star-gold-color: #ffce3e;
 
 	--header-height: 120px;
 	--navbar-height: 43px;
@@ -241,4 +241,39 @@ html {
 
 .select-input__link:hover {
 	color: var(--primary-color);
+}
+
+/* Pagination */
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+.pagination-item {
+}
+
+.pagination-item--active .pagination-item__link {
+	background-color: var(--primary-color);
+	color: var(--white-color);
+}
+
+.pagination-item--active:hover .pagination-item__link {
+	filter: brightness(80%);
+}
+
+.pagination-item__link {
+	--height: 30px;
+	display: block;
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: var(--text-color);
+	min-width: 42px;
+	height: var(--height);
+	line-height: var(--height);
+	text-align: center;
+	border-radius: 2px;
+}
+
+.pagination-item__icon {
 }

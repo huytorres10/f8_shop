@@ -1160,3 +1160,7 @@ i.home-product-item__action-like-icon-fill {
 .home-product-item__sale-off-label {
 	color: var(--white-color);
 }
+
+.home-pagination {
+	margin: 30px 0 30px;
+}
