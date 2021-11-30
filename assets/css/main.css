@@ -1164,3 +1164,54 @@ i.home-product-item__action-like-icon-fill {
 .home-pagination {
 	margin: 30px 0 30px;
 }
+
+.footer {
+	border-top: 4px solid var(--primary-color);
+	padding-top: 12px;
+}
+
+.footer__heading {
+	font-family: 1.4rem;
+	text-transform: uppercase;
+	color: var(--text-color);
+}
+
+.footer-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer-item {
+}
+
+.footer-item__link {
+	text-decoration: none;
+	color: var(--text-color);
+	font-size: 1.2rem;
+	line-height: 2rem;
+	display: block;
+	cursor: pointer;
+}
+
+.footer-item__link:hover {
+	color: var(--primary-color);
+}
+
+.footer__download {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__download-qr {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin-right: 12px;
+}
+
+.footer__download-apps {
+}
+
+.footer__download-img {
+	height: 20px;
+}
